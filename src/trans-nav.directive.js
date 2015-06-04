@@ -1,7 +1,6 @@
 (function(angular, moduleName) {
 	"use strict";
 	
-	angular.module(moduleName, []);
 	angular.module(moduleName).directive('transNav', ['$window', transNavbarFn]);
 	
 	function transNavbarFn($window) {
