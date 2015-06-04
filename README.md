@@ -12,9 +12,15 @@ You can use it on any navigation bar -- be it a `nav`, a `section`, a `div`, etc
 **Example**:
 
 ```html
-	<nav trans-nav nav-target="#inner-div" nav-active="nb-shrink" class="navbar navbar-default navbar-fixed-top">
+	<nav ng-app="CustomUiComponents" trans-nav nav-target="#inner-div" nav-active="nb-shrink" class="navbar navbar-default navbar-fixed-top">
 		<!-- Content -->
 	</nav>
+```
+
+At the end of `trans-nav.directive.min.js` (it's in `./dist`), you can change the *`CustomUiComponents`* to whatever module name you want.
+
+```javascript
+	... (window.angular,"CustomUiComponents");
 ```
 
 ### Parameters ###
@@ -31,7 +37,7 @@ You can use it on any navigation bar -- be it a `nav`, a `section`, a `div`, etc
 	*HTML*
 	
 ```html
-	<nav trans-nav nav-active="nb-shrink" class="navbar navbar-default navbar-fixed-top">
+	<nav ng-app="CustomUiComponents" trans-nav nav-active="nb-shrink" class="navbar navbar-default navbar-fixed-top">
 		<!-- Content... -->
 	</nav>
 ```
