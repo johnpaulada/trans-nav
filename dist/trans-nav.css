@@ -1,0 +1,15 @@
+[trans-nav] {
+	padding: 25px 0;
+	border: 0;
+	box-shadow: none;
+	background: transparent;
+	-webkit-transition: all .3s;
+	-moz-transition: all .3s;
+	transition: all .3s;
+}
+
+[trans-nav].nb-shrink {
+    padding: 10px 0;
+	background: #222;
+	box-shadow: 0 2px 2px #222;
+}
