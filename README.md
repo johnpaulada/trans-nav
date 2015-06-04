@@ -35,7 +35,6 @@ You can use it on any navigation bar -- be it a `nav`, a `section`, a `div`, etc
 		<!-- Content... -->
 	</nav>
 ```
-	
 	*CSS*
 	
 ```css
