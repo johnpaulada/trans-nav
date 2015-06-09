@@ -1,5 +1,5 @@
 (function(angular) {
 	'use strict';
 	
-	angular.module('CustomUiComponents', []);
+	angular.module('CustomUiComponents', ['jpa.js.ng.transNav']);
 })(window.angular);

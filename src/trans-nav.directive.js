@@ -1,7 +1,9 @@
-(function(angular, moduleName) {
+(function(angular) {
 	"use strict";
 	
-	angular.module(moduleName).directive('transNav', ['$window', transNavbarFn]);
+	angular.module('jpa.js.ng.transNav', []);
+	
+	angular.module('jpa.js.ng.transNav').directive('transNav', ['$window', transNavbarFn]);
 	
 	function transNavbarFn($window) {
 		return {
@@ -45,4 +47,4 @@
 		    }
 		}
 	}
-})(window.angular, 'CustomUiComponents');
+})(window.angular);

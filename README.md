@@ -17,12 +17,6 @@ You can use it on any navigation bar -- be it a `nav`, a `section`, a `div`, etc
 	</nav>
 ```
 
-At the end of `trans-nav.directive.min.js` (it's in `./dist`), you can change the *`CustomUiComponents`* to whatever module name you want.
-
-```javascript
-	... (window.angular,"CustomUiComponents");
-```
-
 ### Parameters ###
 * `nav-target`
 
